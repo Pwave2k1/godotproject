@@ -1,14 +1,17 @@
-extends CharacterBody2D 
- 
+extends CharacterBody2D
 
-var move_speed = 100 
+var move_speed = 100
 
-func    _ready():
-    pass 
 
-func           _process(delta):
+func     _ready():
 	
-                     rotate(0.5 *delta)
-    
+	pass
+
+
+func 		process(delta):
+	rotate(0.5 * delta)
+
+
 func _getInPut() -> void:
-    pass
+	
+	pass
