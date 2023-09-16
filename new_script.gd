@@ -1,11 +1,14 @@
-extends CharacterBody2D
+extends CharacterBody2D 
+ 
 
+var move_speed = 100 
 
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
+func    _ready():
+    pass 
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	rotate(0.5 *delta)
+func           _process(delta):
+	
+                     rotate(0.5 *delta)
+    
+func _getInPut() -> void:
+    pass
